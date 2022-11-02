@@ -167,20 +167,25 @@
 
         </div>
       </article>
-      <form class="form-contact" netlify>
+      <form class="form-contact" name="Contacto" method="POST" netlify>
+
           <legend class="legend"> Contactame </legend>
+
           <div class="form__input">
             <label class="input__label"  for="name" >Nombre</label>
             <input class="input" type="text" name="Nombre" id="name" placeholder="Ingrese su nombre" autocomplete="off" required>
           </div>
+
           <div class="form__input">
             <label class="input__label"  for="email" >Email</label>
             <input class="input" type="email" name="Email" id="email" placeholder="Ingrese su Email" required>
           </div>
+
           <div class="form__input">
             <label class="input__label"  for="msg">Mensaje</label>
             <textarea class="input textarea" name="Mensaje" id="msg" placeholder="Ingrese su mensaje" required></textarea>
           </div>
+
           <button class="submit-btn" type="submit">Enviar</button>
       </form>
     </section>
